@@ -1,57 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wildlife Conservation</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="wildlife_css.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wildlife Conservation</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="wildlife_css.css"/>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-brown px-3">
-    <a class="navbar-brand" href="#">
-        <img src="logo2.png" alt="Wildlife Conservation Logo" height="50">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav text-center">
-            <li class="nav-item"><a class="nav-link" href="index.html">Back to Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="abouts.html">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-            <li class="nav-item"><a class="nav-link" href="contacts.html">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
-        </ul>
-    </div>
+<nav class="navbar">
+  <div class="logo-container">
+    <img src="logo2.png" alt="Wildlife Conservation Logo" class="nav-logo" />
+  </div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="abouts.html">About</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contacts.html">Contact</a></li>
+    <li><a href="feedback.html">Feedback</a></li>
+  </ul>
 </nav>
 
-<div class="container mt-4 text-center">
-    <img src="elephant.jpg" alt="Elephant" class="img-fluid rounded shadow">
-    <div class="mt-4 text-overlay">
-        <h2>Project WildGuard</h2>
-        <p>
-            Project WildGuard is a conservation project started in 2024 by local governments in East Africa. Its purpose is to safeguard and maintain endangered wildlife species threatened with extinction due to habitat loss, poaching, and human-animal conflict.
-        </p>
+<div class="page-wrapper">
+  <div class="main-content">
+    <img src="elephant.jpg" alt="Elephant" class="hero-image"/>
+    <div class="text-overlay">
+      <h2>Project WildGuard</h2>
+      <p>
+        Project WildGuard is a conservation project started in 2024 by local governments in East Africa. Its purpose is to safeguard and maintain endangered wildlife species threatened with extinction due to habitat loss, poaching, and human-animal conflict.
+      </p>
     </div>
+  </div>
+
+  <div class="video-section">
+    <video controls>
+      <source src="lion.mp4" type="video/mp4" />
+      Your browser does not support this video format.
+    </video>
+  </div>
+
+  <div class="links">
+    <a href="abouts.html" class="btn btn-primary m-2">About</a>
+    <a href="contacts.html" class="btn btn-secondary m-2">Contact</a>
+  </div>
 </div>
 
-<div class="container mt-5 text-center">
-    <div class="ratio ratio-16x9">
-        <video controls>
-            <source src="lion.mp4" type="video/mp4">
-            Your browser does not support this video format.
-        </video>
-    </div>
-</div>
-
-<div class="container mt-4 text-center">
-    <a href="abouts.html" class="btn btn-outline-secondary m-2">About</a>
-    <a href="contacts.html" class="btn btn-outline-secondary m-2">Contact</a>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
